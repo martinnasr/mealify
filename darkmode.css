@@ -1,0 +1,41 @@
+body:has(.mode input:checked){
+background-color: black;
+} 
+body:has(.mode input:checked) nav .logo{
+    color:white;
+}
+body:has(.mode input:checked) nav ul li a{
+    color:white;
+}
+body:has(.mode input:checked) nav .mode .light{
+    display: block;
+    color: #F4F4F4;
+}
+body:has(.mode input:checked) nav .mode .dark{
+    display:none;
+}
+body:has(.mode input:checked) section .section-bg {
+    background-color: #252525;
+    }
+    body:has(.mode input:checked) section .header-content h2{
+        color:#F4F4F4;
+    }
+    body:has(.mode input:checked) section .header-content p
+{
+        color: #4f4f5a;}
+
+    
+    body:has(.mode input:checked) section .button-group .btn-main {
+       background-color: #C17E1F;
+       color: black;
+    }
+    body:has(.mode input:checked) section .button-group .video-btn {
+        background-color:#252525;
+        color: #4f4f5a;}
+        body:has(.mode input:checked) section .button-group .video-btn .icon{
+            background-image:linear-gradient(to right,#C17E1F 0% 50% ,transparent 50% 100%);
+        }
+        body:has(.mode input:checked) section .button-group .video-btn .icon::before{ 
+            background-color:black ;
+            color:#F4F4F4;
+        }
